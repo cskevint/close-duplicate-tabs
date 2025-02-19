@@ -1,4 +1,3 @@
-
 # Close Duplicate Tabs
 
 ## Overview
@@ -26,6 +25,10 @@
 Once installed, the extension will automatically close any duplicate tabs that you open when you click the extension button in the toolbar. You don't need to do anything manually.
 
 This Chrome extension has no options to configure.
+
+Below is a screenshot showing the extension in action:
+
+![Screenshot](screenshot.png)
 
 ## Contributing
 
