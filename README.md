@@ -23,7 +23,7 @@
 
 ## Usage
 
-Once installed, the extension will automatically close any duplicate tabs that you open. You don't need to do anything manually.
+Once installed, the extension will automatically close any duplicate tabs that you open when you click the extension button in the toolbar. You don't need to do anything manually.
 
 ## Contributing
 
