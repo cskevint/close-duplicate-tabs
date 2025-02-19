@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Close Duplicate Tabs",
+    "version": "1.0",
+    "description": "Closes duplicate tabs where only the fragment differs.",
+    "permissions": ["tabs"],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    }
+}
