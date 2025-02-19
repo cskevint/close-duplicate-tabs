@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Close Duplicate Tabs",
     "version": "1.0",
-    "description": "Closes duplicate tabs where only the fragment differs.",
+    "description": "Closes duplicate tabs where only the fragment of the tab URL can differ.",
     "permissions": ["tabs"],
     "background": {
         "service_worker": "background.js",

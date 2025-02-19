@@ -1,4 +1,5 @@
 function normalizedUrl(url) {
+  url = url.endsWith("/") ? url.slice(0, -1) : url;
   return url.split("#")[0];
 }
 
