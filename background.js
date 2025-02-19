@@ -23,7 +23,7 @@ function updateBadge() {
   chrome.tabs.query({}, (tabs) => {
     const seenUrls = new Map();
     let duplicateCount = 0;
-    
+
     for (const tab of tabs) {
       if (!tab.url) continue;
       const baseUrl = normalizedUrl(tab.url);
@@ -36,7 +36,7 @@ function updateBadge() {
     }
     if (duplicateCount > 0) {
       chrome.action.setBadgeText({ text: duplicateCount.toString() });
-      chrome.action.setBadgeBackgroundColor({ color: "#EA4335" });
+      chrome.action.setBadgeBackgroundColor({ color: "#272AB0" });
     } else {
       chrome.action.setBadgeText({ text: "" });
     }
